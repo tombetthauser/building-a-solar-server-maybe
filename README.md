@@ -4,7 +4,7 @@ Running notes on how to build a solar server from the perspective of someone tha
 
 ---
 
-## Getting Solar Power 🔌
+## 1. Get Solar Power 🔌
 
 This seems fairly straight forward but will have unforseen issues I'm sure if I ever actually give it a shot.
 
@@ -17,16 +17,27 @@ This seems fairly straight forward but will have unforseen issues I'm sure if I 
 
 ---
 
-## Making a Simple Website 📄
+## 2. Make a Simple Website 📄
 
-This might be a more a stylistic choice than anything else but it will limit the power it takes to service a request. Also Lowtech Magazine is a really inspiring solar powered server project so going through their advice on low-tech web design might provide unforseeable insight.
+In a nutshell, making your website small saves power. To make a small website no react, no javascript, dither your images, default serif font, no google analytics, no cookies, no ads.
 
-[link to full article](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
-
+[link to full article on lowtech magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
+  
+<details>
+<summary><strong>
+  Hardware Observations
+</strong></summary><br>
+  
 * a charge controller directly hooked up to a server via usb
 * battery maybe optional
+  
+<br></details>
 
-#### Why a Low-tech Website?
+<details>
+<summary><strong>
+  Why a Low-tech Website?
+</strong></summary><br>
+
 * lowtech design meant to radically reduce server energy use
 * internet meant to [dematerialise society and decrease energy use](https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx)
 * internet is a [large / growing consumer of energy](https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy.html)
@@ -44,5 +55,29 @@ This might be a more a stylistic choice than anything else but it will limit the
 * always-on internet access accompanies a cloud computing model
 * cloud computing model decreases user device energy consumption but increases data center and network energy use
 * once offline activities like file access now often require network access
+  
+<br></details>
 
-#### Low-tech Web Design
+<details>
+<summary><strong>
+  Lowtech Web Design
+</strong></summary><br>
+  
+* the internet is not an autonomous being
+* rising power consumption comes from choices web developers make
+* converting a basic blog to a lowtech design decreases average page size by a factor of five
+* average page weight is .77 MB
+* less than half the page weight of the average site in 2018
+* number of requests has also been decreased fivefold
+* dowload speed has increased tenfold
+* site is designed for low energy use not speed
+  
+<br></details>
+
+<details>
+<summary><strong>
+  Static Site
+</strong></summary><br>
+  
+<br></details>
+  
