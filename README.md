@@ -6,7 +6,12 @@ Running notes on how to build a solar server from the perspective of someone tha
 
 ## 1. Get Solar Power 🔌
 
-This seems fairly straight forward but will have unforseen issues I'm sure if I ever actually give it a shot.
+This seems fairly straight forward but will have unforseen issues I'm sure. It seems like it's just a $100 amazon solar panel with a standard built-in charge controller hooked up to a car battery hooked up to a standard $60 power inverter for a car hooked up to whatever old laptop is running the server. Could it be that simple?
+
+<details>
+<summary><strong>
+  More Solar Power Notes
+</strong></summary><br>
 
 * get a solar panel with a charge controller
 * the charge controller regulates the output power
@@ -14,6 +19,8 @@ This seems fairly straight forward but will have unforseen issues I'm sure if I 
 * get a power inverter to convert dc to ac power
 * hook this up (directly?) to the car battery
 * you now have normal ac power
+
+</details>
 
 ---
 
@@ -87,7 +94,21 @@ In a nutshell, making your website small saves power. To make a small website no
 * static sites are based on file storage
 * dynamic sites depend on recurrent computation
 * static sites require less processing power and less energy (how much? unclear)
-* 
+* a normal blog site like lowtech magazine would take up too much power to run on solar power if it were a dynamically rendered data-driven website
+* it would require too much energy (is this true?)
+* it would also be a security risk
+* there are fewer hacking attack routes for static sites
+* damage to a static site is also more easily fixed
+  
+<br></details>
+
+
+<details>
+<summary><strong>
+  Dithered Images
+</strong></summary><br>
+  
+* working on this...
   
 <br></details>
   
