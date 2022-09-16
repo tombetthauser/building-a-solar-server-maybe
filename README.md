@@ -79,6 +79,16 @@ In a nutshell, making your website small saves power. To make a small website no
   Static Site
 </strong></summary><br>
   
+* building a static site was a fundamental move
+* most websites build pages on the fly after querying a database
+* every request (repeats included) is generated on demand
+* static sites generate pages once
+* then static files live on the server's hard disk
+* static sites are based on file storage
+* dynamic sites depend on recurrent computation
+* static sites require less processing power and less energy (how much? unclear)
+* 
+  
 <br></details>
   
 
