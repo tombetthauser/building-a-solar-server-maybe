@@ -81,3 +81,6 @@ In a nutshell, making your website small saves power. To make a small website no
   
 <br></details>
   
+
+```
+⚠️ work in progress, still actively adding notes...
