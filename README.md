@@ -48,7 +48,7 @@ In a nutshell, making your website small saves power. To make a small website no
 * lowtech design meant to radically reduce server energy use
 * internet meant to [dematerialise society and decrease energy use](https://www.bcg.com/publications/2012/energy-environment-technology-industries-smarter-2020-role-ict-driving-sustainable-future.aspx)
 * internet is a [large / growing consumer of energy](https://solar.lowtechmagazine.com/2015/10/can-the-internet-run-on-renewable-energy.html)
-* the internet uses three times more energy than all current wind and solar power (source?)
+* the internet uses three times more energy than all current wind and solar power (?)
 * almost all pv solar panels are produced in china
 * chinese energy grid is twice as carbonized and half as effecient as europe's
 * web content is becoming increasingly resource intensive
@@ -93,9 +93,9 @@ In a nutshell, making your website small saves power. To make a small website no
 * then static files live on the server's hard disk
 * static sites are based on file storage
 * dynamic sites depend on recurrent computation
-* static sites require less processing power and less energy (how much? unclear)
+* static sites require less processing power and less energy (?)
 * a normal blog site like lowtech magazine would take up too much power to run on solar power if it were a dynamically rendered data-driven website
-* it would require too much energy (is this true?)
+* it would require too much energy (?)
 * it would also be a security risk
 * there are fewer hacking attack routes for static sites
 * damage to a static site is also more easily fixed
@@ -108,9 +108,41 @@ In a nutshell, making your website small saves power. To make a small website no
   Dithered Images
 </strong></summary><br>
   
-* working on this...
+* images take up most of the bandwidth on a site like lowtech magazine (?)
+* options are eliminate images, have fewer or make them smaller
+* dithering images can make them ten times less resource intensive
+* dithering is considered an obsolete image compression technique (?)
+* image size is determined by file format, resolution and color count
+* all images on lowtech magazine are converted to black and white with four levels of gray in between, meaning 6 value levels in total (?)
+* all images seem to be black and white pngs 600~650px wide that are colored by using the background-color CSS property
+* the color they choose in lowtech magazine is based on their content category (?)
+* they are compressed through a dithering plugin (?)
   
 <br></details>
+
+
+<details>
+<summary><strong>
+  Default Typeface / No Logo
+</strong></summary><br>
+  
+* lowtech magazine simply doesn't use the font-family CSS attribute
+* they use a typographic logo rather than font or imagery (LOW←TECH)
+  
+<br></details>
+
+<details>
+<summary><strong>
+  No Third-Party Tracking / Advertising / Cookies
+</strong></summary><br>
+  
+* google analytics records what happens on a website
+* many companies offer similar services
+* which pages are viewed / where visitors come from etc.
+* 
+  
+<br></details>
+  
   
 ---
 
